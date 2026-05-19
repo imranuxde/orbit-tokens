@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--
+  Do not edit directly, this file was auto-generated.
+-->
+<resources>
+  <string name="fonts_static_font_main">Inter</string>
+  <string name="fonts_static_font_mono">Roboto Mono</string>
+  <string name="fonts_static_weight_regular">Regular</string>
+  <string name="fonts_static_weight_medium">Medium</string>
+  <string name="fonts_static_weight_semi_bold">Semi Bold</string>
+  <string name="fonts_static_weight_bold">Bold</string>
+  <string name="fonts_static_weight_extra_bold">Extra Bold</string>
+  <string name="fonts_static_weight_black">Black</string>
+</resources>

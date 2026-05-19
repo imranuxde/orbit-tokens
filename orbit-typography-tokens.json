@@ -1,0 +1,251 @@
+{
+  "$extensions": {
+    "figma-console-mcp": {
+      "exportedAt": "2026-05-19T18:15:39.855Z",
+      "mcpVersion": "1.28.1"
+    }
+  },
+  "fonts": {
+    "Static": {
+      "Font": {
+        "Main": {
+          "$type": "string",
+          "$value": "Inter",
+          "$extensions": {
+            "modes": {
+              "Bangla": "Kohinoor Bangla"
+            }
+          }
+        },
+        "Mono": {
+          "$type": "string",
+          "$value": "Roboto Mono"
+        }
+      },
+      "Weight": {
+        "Regular": {
+          "$type": "string",
+          "$value": "Regular"
+        },
+        "Medium": {
+          "$type": "string",
+          "$value": "Medium"
+        },
+        "Semi Bold": {
+          "$type": "string",
+          "$value": "Semi Bold"
+        },
+        "Bold": {
+          "$type": "string",
+          "$value": "Bold"
+        },
+        "Extra Bold": {
+          "$type": "string",
+          "$value": "Extra Bold",
+          "$extensions": {
+            "modes": {
+              "Bangla": "Bold"
+            }
+          }
+        },
+        "Black": {
+          "$type": "string",
+          "$value": "Black",
+          "$extensions": {
+            "modes": {
+              "Bangla": "Bold"
+            }
+          }
+        }
+      }
+    }
+  },
+  "typography": {
+    "Component": {
+      "XSmall": {
+        "fontFamily": "{fonts.Static.Font.Main}",
+        "fontSize": 10,
+        "lineHeight": 16,
+        "letterSpacing": 0,
+        "fontWeight": "{fonts.Static.Weight.Semi Bold}"
+      },
+      "Small": {
+        "fontFamily": "{fonts.Static.Font.Main}",
+        "fontSize": 11,
+        "lineHeight": 16,
+        "letterSpacing": 0,
+        "fontWeight": "{fonts.Static.Weight.Regular}",
+        "fontWeight-strong": "{fonts.Static.Weight.Semi Bold}"
+      },
+      "Medium": {
+        "fontFamily": "{fonts.Static.Font.Main}",
+        "fontSize": 12,
+        "lineHeight": 18,
+        "letterSpacing": 0,
+        "fontWeight": "{fonts.Static.Weight.Regular}",
+        "fontWeight-strong-1": "{fonts.Static.Weight.Medium}",
+        "fontWeight-strong-2": "{fonts.Static.Weight.Semi Bold}",
+        "fontWeight-strong-3": "{fonts.Static.Weight.Bold}"
+      },
+      "Large": {
+        "fontFamily": "{fonts.Static.Font.Main}",
+        "fontSize": 14,
+        "lineHeight": 20,
+        "letterSpacing": 0,
+        "fontWeight": "{fonts.Static.Weight.Regular}",
+        "fontWeight-strong-1": "{fonts.Static.Weight.Medium}",
+        "fontWeight-strong-2": "{fonts.Static.Weight.Semi Bold}",
+        "fontWeight-strong-3": "{fonts.Static.Weight.Bold}"
+      },
+      "XLarge": {
+        "fontFamily": "{fonts.Static.Font.Main}",
+        "fontSize": 16,
+        "lineHeight": 24,
+        "letterSpacing": 0,
+        "fontWeight": "{fonts.Static.Weight.Regular}",
+        "fontWeight-strong-1": "{fonts.Static.Weight.Medium}",
+        "fontWeight-strong-2": "{fonts.Static.Weight.Semi Bold}",
+        "fontWeight-strong-3": "{fonts.Static.Weight.Bold}"
+      }
+    },
+    "Body": {
+      "Small": {
+        "fontFamily": "{fonts.Static.Font.Main}",
+        "fontSize": 12,
+        "lineHeight": 18,
+        "letterSpacing": 0,
+        "fontWeight": "{fonts.Static.Weight.Regular}",
+        "fontWeight-strong-1": "{fonts.Static.Weight.Medium}",
+        "fontWeight-strong-2": "{fonts.Static.Weight.Semi Bold}",
+        "fontWeight-strong-3": "{fonts.Static.Weight.Bold}"
+      },
+      "Medium": {
+        "fontFamily": "{fonts.Static.Font.Main}",
+        "fontSize": 14,
+        "lineHeight": 20,
+        "letterSpacing": -0.2,
+        "fontWeight": "{fonts.Static.Weight.Regular}",
+        "fontWeight-strong-1": "{fonts.Static.Weight.Medium}",
+        "fontWeight-strong-2": "{fonts.Static.Weight.Semi Bold}",
+        "fontWeight-strong-3": "{fonts.Static.Weight.Bold}"
+      },
+      "Large": {
+        "fontFamily": "{fonts.Static.Font.Main}",
+        "fontSize": 16,
+        "lineHeight": 24,
+        "letterSpacing": -0.3,
+        "fontWeight": "{fonts.Static.Weight.Regular}",
+        "fontWeight-strong-1": "{fonts.Static.Weight.Medium}",
+        "fontWeight-strong-2": "{fonts.Static.Weight.Semi Bold}",
+        "fontWeight-strong-3": "{fonts.Static.Weight.Bold}"
+      },
+      "XLarge": {
+        "fontFamily": "{fonts.Static.Font.Main}",
+        "fontSize": 18,
+        "lineHeight": 24,
+        "letterSpacing": -0.3,
+        "fontWeight": "{fonts.Static.Weight.Regular}",
+        "fontWeight-strong": "{fonts.Static.Weight.Semi Bold}"
+      }
+    },
+    "Title": {
+      "Small": {
+        "fontFamily": "{fonts.Static.Font.Main}",
+        "fontSize": 16,
+        "lineHeight": 24,
+        "letterSpacing": -0.5,
+        "fontWeight": "{fonts.Static.Weight.Regular}",
+        "fontWeight-strong-1": "{fonts.Static.Weight.Semi Bold}",
+        "fontWeight-strong-2": "{fonts.Static.Weight.Bold}"
+      },
+      "Medium": {
+        "fontFamily": "{fonts.Static.Font.Main}",
+        "fontSize": 18,
+        "lineHeight": 24,
+        "letterSpacing": -0.5,
+        "fontWeight": "{fonts.Static.Weight.Regular}",
+        "fontWeight-strong-1": "{fonts.Static.Weight.Semi Bold}",
+        "fontWeight-strong-2": "{fonts.Static.Weight.Bold}"
+      },
+      "Large": {
+        "fontFamily": "{fonts.Static.Font.Main}",
+        "fontSize": 20,
+        "lineHeight": 28,
+        "letterSpacing": -0.5,
+        "fontWeight": "{fonts.Static.Weight.Regular}",
+        "fontWeight-strong-1": "{fonts.Static.Weight.Semi Bold}",
+        "fontWeight-strong-2": "{fonts.Static.Weight.Bold}"
+      },
+      "XLarge": {
+        "fontFamily": "{fonts.Static.Font.Main}",
+        "fontSize": 24,
+        "lineHeight": 32,
+        "letterSpacing": -0.7,
+        "fontWeight": "{fonts.Static.Weight.Regular}",
+        "fontWeight-strong-1": "{fonts.Static.Weight.Semi Bold}",
+        "fontWeight-strong-2": "{fonts.Static.Weight.Bold}"
+      }
+    },
+    "Headline": {
+      "Small": {
+        "fontFamily": "{fonts.Static.Font.Main}",
+        "fontSize": 28,
+        "lineHeight": 36,
+        "letterSpacing": -0.8,
+        "fontWeight": "{fonts.Static.Weight.Regular}",
+        "fontWeight-strong-1": "{fonts.Static.Weight.Bold}",
+        "fontWeight-strong-2": "{fonts.Static.Weight.Extra Bold}"
+      },
+      "Medium": {
+        "fontFamily": "{fonts.Static.Font.Main}",
+        "fontSize": 32,
+        "lineHeight": 40,
+        "letterSpacing": -0.8,
+        "fontWeight": "{fonts.Static.Weight.Regular}",
+        "fontWeight-strong-1": "{fonts.Static.Weight.Bold}",
+        "fontWeight-strong-2": "{fonts.Static.Weight.Extra Bold}"
+      },
+      "Large": {
+        "fontFamily": "{fonts.Static.Font.Main}",
+        "fontSize": 36,
+        "lineHeight": 44,
+        "letterSpacing": -1,
+        "fontWeight": "{fonts.Static.Weight.Regular}",
+        "fontWeight-strong-1": "{fonts.Static.Weight.Bold}",
+        "fontWeight-strong-2": "{fonts.Static.Weight.Extra Bold}"
+      }
+    },
+    "Display": {
+      "Small": {
+        "fontFamily": "{fonts.Static.Font.Main}",
+        "fontSize": 48,
+        "lineHeight": 56,
+        "letterSpacing": -0.5,
+        "fontWeight": "{fonts.Static.Weight.Regular}",
+        "fontWeight-strong-1": "{fonts.Static.Weight.Bold}",
+        "fontWeight-strong-2": "{fonts.Static.Weight.Extra Bold}",
+        "fontWeight-strong-3": "{fonts.Static.Weight.Black}"
+      },
+      "Medium": {
+        "fontFamily": "{fonts.Static.Font.Main}",
+        "fontSize": 64,
+        "lineHeight": 72,
+        "letterSpacing": -0.8,
+        "fontWeight": "{fonts.Static.Weight.Regular}",
+        "fontWeight-strong-1": "{fonts.Static.Weight.Bold}",
+        "fontWeight-strong-2": "{fonts.Static.Weight.Extra Bold}",
+        "fontWeight-strong-3": "{fonts.Static.Weight.Black}"
+      },
+      "Large": {
+        "fontFamily": "{fonts.Static.Font.Main}",
+        "fontSize": 84,
+        "lineHeight": 90,
+        "letterSpacing": -1,
+        "fontWeight": "{fonts.Static.Weight.Regular}",
+        "fontWeight-strong-1": "{fonts.Static.Weight.Bold}",
+        "fontWeight-strong-2": "{fonts.Static.Weight.Extra Bold}",
+        "fontWeight-strong-3": "{fonts.Static.Weight.Black}"
+      }
+    }
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "name": "orbit-tokens",
+  "version": "1.0.0",
+  "description": "Design tokens for the Orbit Design System at Grameenphone.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/imranuxde/orbit-tokens.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/imranuxde/orbit-tokens/issues"
+  },
+  "homepage": "https://github.com/imranuxde/orbit-tokens#readme",
+  "dependencies": {
+    "style-dictionary": "^5.4.1"
+  }
+}
